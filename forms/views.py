@@ -17,7 +17,7 @@ def home(request):
     else:
         form = StudentForm()
 
-    return render(request, 'forms/home.html', {'form': form, 'submitted': submitted})
+    return render(request, 'forms/index.html', {'form': form, 'submitted': submitted})
 
     
 
